@@ -1,7 +1,3 @@
-//
-// igor petushkov sosi
-//
-
 #ifndef RISCSIM_LOAD_ELF_H
 #define RISCSIM_LOAD_ELF_H
 
