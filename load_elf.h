@@ -1,5 +1,5 @@
 //
-// Created by ilya on 21.04.18.
+// igor petushkov sosi
 //
 
 #ifndef RISCSIM_LOAD_ELF_H
