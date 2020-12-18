@@ -33,6 +33,8 @@ int main(int argc, char **argv) {
 
     int cache_wr_num = 0;
     inst_cnt = 0;
+    clock_t start, end;
+    start = clock();
     while (1) {
         int i;
         if ((i = find_linear_block(pc, lb_cache, N_cache)) == -1) {
@@ -46,9 +48,9 @@ int main(int argc, char **argv) {
         if (lb_status == EXEC_EXIT)
             break;
     }
-
+    end = clock();
     printf("program returned: %d\n", x[10]);
-    printf("instructions done: %u\n", inst_cnt);
+    printf("Speed done: %u\n", inst_cnt/(end - start))/1000000;
 
     fclose(f_log);
 
