@@ -50,7 +50,7 @@ int main(int argc, char **argv) {
     }
     end = clock();
     printf("program returned: %d\n", x[10]);
-    printf("Speed done: %u\n", inst_cnt/(end - start))/1000000;
+    printf("Speed done: %lu\n", inst_cnt/(end - start))/1000000;
 
     fclose(f_log);
 
