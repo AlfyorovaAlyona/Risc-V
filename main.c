@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#include "inst_decode.h"
+#include "instruction_decoder.h"
 #include "load_elf.h"
 
 
